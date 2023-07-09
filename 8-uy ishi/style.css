@@ -1,0 +1,62 @@
+img{
+    width: 400px;
+}
+
+.ota{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    width: 400px;
+}
+
+.card{
+    text-align: center;
+}
+
+.img1:hover{
+    filter: blur(5px);
+}
+
+.img2:hover{
+    filter: grayscale(25%);
+}
+
+.img3:hover{
+    filter: brightness(200%);
+}
+
+.img4:hover{
+    filter: contrast(180%);
+}
+
+.img5:hover{
+    filter: hue-rotate(40deg);
+}
+
+.img6:hover{
+    filter: invert(25%);
+}
+
+.img7:hover{
+    filter: saturate(300%);
+}
+
+.img8:hover{
+    filter: sepia(100%);
+}
+
+.img9:hover{
+    filter: opacity(1%);
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+}
